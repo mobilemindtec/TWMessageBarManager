@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	:tag => "v1.7.2"
   }
 
-  s.platform = :ios, '6.0'
+  s.platform = :ios, '8.0'
   s.source_files = 'Classes', 'Classes/**/*.{h,m}'
   s.resources = ["Classes/Icons/*.png"]
   s.requires_arc = true
